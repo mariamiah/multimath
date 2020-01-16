@@ -1,3 +1,4 @@
+"use strict";
 function startGame() {
     // starts a new game
     var messagesElement = document.getElementById('messages');
@@ -5,7 +6,8 @@ function startGame() {
         messagesElement.innerText = "Welcome to MultiMath! Starting new game ....";
     }
 }
-const elem = document.getElementById('startGame');
+var elem = document.getElementById('startGame');
 if (elem) {
     elem.addEventListener('click', startGame);
 }
+//# sourceMappingURL=app.js.map
