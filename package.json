@@ -1,0 +1,25 @@
+{
+  "name": "multimath",
+  "version": "1.0.0",
+  "description": "simple math game built with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariamiah/multimath.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariamiah/multimath/issues"
+  },
+  "homepage": "https://github.com/mariamiah/multimath#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
